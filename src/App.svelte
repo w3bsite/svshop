@@ -1,7 +1,7 @@
 <script>
-  import "node_modules/@glidejs/glide/dist/css/glide.theme.min.css";
-  import "node_modules/@glidejs/glide/dist/css/glide.core.min.css";
-  import "../public/css/mdb.min.css";
+  // import "node_modules/@glidejs/glide/dist/css/glide.theme.min.css";
+  // import "node_modules/@glidejs/glide/dist/css/glide.core.min.css";
+  // import "../public/css/mdb.min.css";
   import { onMount } from "svelte";
   import Glide from "@glidejs/glide";
   import { Icon } from "svelte-materialify/src";
