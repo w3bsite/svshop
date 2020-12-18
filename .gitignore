@@ -1,0 +1,8 @@
+/node_modules/
+/public/build/
+/public/FontAwesome
+/public/MaterialDesignICON
+/public/webfonts
+/public/theme/FontAwesome
+/src/theme/FontAwesome
+.DS_Store

@@ -1,0 +1,34 @@
+{
+  "name": "svelte-app",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "start": "sirv public",
+    "proxy": "node proxy.js"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^14.0.0",
+    "@rollup/plugin-node-resolve": "^8.0.0",
+    "postcss": "^8.1.2",
+    "rollup": "^2.3.4",
+    "rollup-plugin-css-only": "^3.0.0",
+    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-svelte": "^6.0.0",
+    "rollup-plugin-terser": "^7.0.0",
+    "sass": "^1.27.0",
+    "svelte": "^3.0.0",
+    "svelte-materialify": "^0.1.13",
+    "svelte-preprocess": "^4.5.1"
+  },
+  "dependencies": {
+    "@glidejs/glide": "^3.4.1",
+    "@mdi/font": "^5.8.55",
+    "cors-anywhere": "^0.4.3",
+    "focus-visible": "^5.2.0",
+    "mdi-svelte": "^1.1.2",
+    "page": "^1.11.6",
+    "rollup-plugin-postcss": "^4.0.0",
+    "sirv-cli": "^1.0.0"
+  }
+}
