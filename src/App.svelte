@@ -15,9 +15,7 @@
   let theme = "dark";
   let page;
   let params;
-  onMount(() => {
-    new Glide(".glide").mount();
-  });
+
   // ROUTER PAGE
   router("/", () => (page = app));
   router("/games", () => (page = Gamess));
@@ -44,7 +42,5 @@
   <svelte:component this={page} {params} />
   <button type="button" class="btn btn-primary">Button
     <Icon disabled class="mdi mdi-account" /></button>
-  <div class="col-md-6">
-    <Jumbo />
-  </div>
+  <div class="col-md-6" />
 </div>

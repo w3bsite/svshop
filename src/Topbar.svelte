@@ -2,6 +2,7 @@
   import Thir from "./Thir.svelte";
   import Fir from "./Fir.svelte";
   import Gamess from "./Gamess.svelte";
+
   import {
     Tabs,
     Tab,
@@ -11,6 +12,7 @@
     Card,
     Button,
   } from "svelte-materialify/src";
+  import Jumbo from "./jumbo.svelte";
 
   let value = [0];
 
@@ -132,6 +134,7 @@
   <Card>
     <Window value={value[0]} class="ma-4 ">
       <WindowItem>
+        Item 1
         <Gamess />
       </WindowItem>
       <WindowItem>

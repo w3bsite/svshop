@@ -1,13 +1,16 @@
 <script>
-    import Icon from "svelte-materialify/src/components/Icon";
+    // import Icon from "svelte-materialify/src/components/Icon";
+    //       onMount(() => {
+    //     new Glide(".glide").mount();
+    //   });
 </script>
 
+h
+<!-- 
 <div class="glide">
     <div class="glide__track" data-glide-el="track">
         <ul class="glide__slides">
-            <slot>
-                <!-- optional fallback -->
-            </slot>
+            <li>hii</li>
         </ul>
     </div>
     <div class="glide__arrows" data-glide-el="controls">
@@ -20,4 +23,4 @@
             <Icon class="mdi mdi-skip-next orange-text" size="40px" />
         </button>
     </div>
-</div>
+</div> -->
